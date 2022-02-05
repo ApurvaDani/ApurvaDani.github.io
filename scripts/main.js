@@ -6,20 +6,7 @@ $(document).ready(function() {
     // uncomment below for on-scroll animations to played only once
     // once: true  
   }); // initialize animate on scroll library
-
-  Email.send({
-    SecureToken : "7958ef8a-72f0-4108-8b5d-896f09eaa5be",
-    To : 'nudeshi@usc.edu',
-    From : "nudeshi@usc.edu",
-    Subject : "Someone checked your portfolio!",
-    Body : "Someone checked your portfolio!"
-  }).then(
-    alert("Checking")
-  );
-
 });
-
-
 
 // Smooth scroll for links with hashes
 $('a.smooth-scroll')
